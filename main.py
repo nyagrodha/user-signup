@@ -8,7 +8,7 @@ app.config['DEBUG'] = True
 
 # THIS CREATES ROUTE TO DISPLAY THE FORM
 
-@app.route('/signup')
+@app.route('/')
 def display_user_signup_form():
     return render_template('main.html')
 
